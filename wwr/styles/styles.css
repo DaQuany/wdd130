@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Smooch&display=swap');
+
+#logo_link{
+    padding-top: 5px;
+}
+
 body{
     background-color: aliceblue;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin:0;
 }
 
 header{
@@ -11,24 +25,40 @@ header{
     color: salmon;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 .msg{
     background-color: seashell;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: darkgreen;
 }
 .msg p{
     color: darkcyan;
+    padding-bottom: 15px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
+
 h4{
     color: turquoise;
 }
+
+footer .social img{
+    padding-top: 15px;
+}
+
 footer{
     background-color: beige;
     color: darkgray;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: darkcyan;
@@ -49,9 +79,21 @@ footer a:hover{
     margin: 0 auto;
 }
 
+.river-card, .campling-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+
 .book, .join{
     background-color: azure;
     color: darkcyan;
+    padding:15px 30px;
+    margin-top: 50px;
+    font-size: 18px;
+    border-radius: 5px;
 }
 
 nav a{
@@ -60,6 +102,7 @@ nav a{
     color: black;
     text-decoration:none;
     padding-top: 5px;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -87,4 +130,7 @@ main section{
 
 .home-title{
     color: darkblue;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
