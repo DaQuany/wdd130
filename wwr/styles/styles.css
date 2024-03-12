@@ -329,9 +329,10 @@ form {
   button {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
+    background-color: cadetblue;
     margin-left: 0.5em;
     padding: 10px;
-    font-size: 1.2em;
+    font-size: 0.9em;
   }
   
 @media screen and (max-width: 900px) {
