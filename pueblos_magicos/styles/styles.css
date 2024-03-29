@@ -207,6 +207,12 @@ nav a:hover {
   user-select: none;
 }
 
+.prev{
+  left: 0;
+
+  border-radius: 3px 0 0 3px;
+}
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -263,31 +269,6 @@ nav a:hover {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
-
-#hero{
-  padding: 0 50px;
-  margin-bottom: 30px;
-  margin-top: 30px;
-  display: grid;
-  background-color: #33cc33;
-}
-
-#hero-box {
-}
-
-#hero-msg{
-  color: darkcyan;
-  background-color: aliceblue;
-}
-
-
-#hero-quote{
-  background-color: aliceblue;
-}
-
-#hero-img{
-  width: 100%;
 }
 
 
