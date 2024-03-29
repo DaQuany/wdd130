@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pueblos Magicos | information</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="infotab.js"></script>
 </head>
 <body>
-    <div id="top_menu">
+    <div id="content">
         <header>
             <a id="logo_link" href="index.html">
-                <img class="logo" src="images/pueblos magicos-logos.jpeg" alt="PM logo" width="100">
+                <img class="logo" src="images/pueblos-magicos-logos.jpeg" alt="PM logo" width="100">
             </a>
             <nav>
                 <a href="index.html">Home</a>
@@ -27,8 +28,41 @@
                 <h4>What can you see and experience?</h4>
             </section>
         </div>
-        <main class="info-grid">
+        
 
+        <main class="info-grid">
+            
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Tequila')">Tequila</button>
+            <button class="tablinks" onclick="openCity(event, 'Huasca de Ocampo')">Huasca de Ocampo</button>
+            <button class="tablinks" onclick="openCity(event, 'Batopilas')">Batopilas</button>
+          </div>
+          
+          <div id="Tequila" class="tabcontent">
+            <h3>Tequila</h3>
+            <p>Tequila is a town in Mexico's western state of Jalisco. 
+                It's known for its production of the famous spirit. 
+                Near the foot of the Tequila Volcano, the outskirts of town are dotted with fields of blue agave, the liquor's main ingredient. 
+                The production process can be observed at several distilleries and haciendas. 
+                The Museo Nacional del Tequila and the Museo Los Abuelos feature exhibits on the history of the drink. ― Google</p>
+          </div>
+          
+          <div id="Huasca de Ocampo" class="tabcontent">
+            <h3>Huasca de Ocampo</h3>
+            <p>Huasca de Ocampo is a town in the central Mexican state of Hidalgo. 
+                Known for its pottery, the town has narrow streets lined with handicraft shops. 
+                The 16th-century Iglesia de San Juan Bautista honors the town's patron saint, John the Baptist. 
+                The Prismas Basálticos is a towering rock formation with waterfalls fed by the Presa San Antonio dam. 
+                To the west, El Chico National Park offers woodland trails and waterfalls. ― Google</p>
+          </div>
+          
+          <div id="Batopilas" class="tabcontent">
+            <h3>Batopilas</h3>
+            <p>Batopilas is a small town, and seat of the surrounding municipality of the same name, in the Mexican state of Chihuahua, 
+                located along the Batopilas River at the bottom of the Batopilas canyon, part of the Copper Canyon. 
+                As of 2010, the town of Batopilas had a population of 1,220. ― Wikipedia
+            </p>
+          </div>
         </main>
         <footer>
             
