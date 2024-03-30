@@ -417,6 +417,6 @@ nav a:hover{
 header{
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: lightgoldenrodyellow;
+    background-color:var(--primary-color);
 }
 
