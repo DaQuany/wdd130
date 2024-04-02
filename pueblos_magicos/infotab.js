@@ -1,4 +1,4 @@
-
+openCity(event, 'Tequila');
 
 function openCity(evt, cityName) {
     // Declare all variables
