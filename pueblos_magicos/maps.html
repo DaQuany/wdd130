@@ -18,16 +18,82 @@
                 <a href="info.html">Information</a>
             </nav>
         </header>
-        <div id="hero">
-            <div id="hero-box">
-                <img id="hero-img" src="images/batopilas.jpg" alt="street of Batopilas">
-            </div>
-            <section id="hero-msg">
-                <h1 class="maps-title">Maps</h1>
-                <h4>How can we get there?</h4>
-            </section>
-        </div>
         <main class="maps-grid">
+            <div class="row">
+            <div class="column">
+                <img src="images/huasca_lake.JPG" alt="haciendas">
+                <img src="images/huasc-de-ocampo2.JPG" alt="huasca de ocampo">
+                <img src="images/huasc-de-ocampo4.JPG" alt="huasca de ocampo">
+                <img src="images/huasc-de-ocampo3.JPG" alt="huasca de ocampo">
+                <img src="images/huasc-de-ocampo5.JPG" alt="huasca de ocampo">
+                <img src="images/huasc-de-ocampo6.JPG" alt="huasca de ocampo">
+                <img src="images/huasca.JPG" alt="huasca de ocampo">
+            </div>
+
+            <div class="column">
+                <img src="images/huasca-de-ocampo1.JPG" alt="huasca de ocampo">
+                <img src="images/huasca.JPG" alt="huasca de ocampo">
+                <img src="images/huasca_lake2.JPG" alt="huasca de ocampo">
+                <img src="images/campeche.JPG" alt="campeche">
+                <img src="images/BACALAR-web.jpg" alt="balacar">
+                <img src="images/bacalar1.JPG" alt="bacalar1">
+                <img src="images/Puebla_Pahuatlan_papeles-amates-web.jpg" alt="puebla">
+            </div>
+            
+            <div class="column">
+                <img src="images/huasca_lake2.JPG" alt="haciendas">
+                <img src="images/huasc-de-ocampo2.JPG" alt="huasca de ocampo">
+                <img src="images/huasc-de-ocampo4.JPG" alt="huasca de ocampo">
+                <img src="images/huasc-de-ocampo3.JPG" alt="huasca de ocampo">
+                <img src="images/huasc-de-ocampo5.JPG" alt="huasca de ocampo">
+                <img src="images/huasc-de-ocampo6.JPG" alt="huasca de ocampo">
+                <img src="images/huasca.JPG" alt="huasca de ocampo">
+            </div>
+
+            <div class="column">
+                <img src="images/huasca1.JPG" alt="huasca de ocampo">
+                <img src="images/huasca_lake.JPG" alt="huasca de ocampo">
+                <img src="images/huasca-de-ocampo1.JPG" alt="huasca de ocampo">
+                <img src="images/campeche.JPG" alt="campeche">
+                <img src="images/BACALAR-web.jpg" alt="balacar">
+                <img src="images/bacalar1.JPG" alt="bacalar1">
+                <img src="images/Puebla_Pahuatlan_papeles-amates-web.jpg" alt="puebla">
+            </div>
+            </div>
+            
+            <button onclick="one()">1</button>
+            <button onclick="two()">2</button>
+            <button onclick="four()">4</button>
+
+            <script>
+            // Get the elements with class="column"
+            var elements = document.getElementsByClassName("column");
+
+            // Declare a "loop" variable
+            var i;
+
+            // Full-width images
+            function one() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.flex = "100%";
+            }
+            }
+
+            // Two images side by side
+            function two() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.flex = "50%";
+            }
+            }
+
+
+            // Four images side by side
+            function four() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.flex = "25%";
+            }
+            }
+            </script>
 
         </main>
         <footer>
